@@ -1,0 +1,14 @@
+join:
+  enabled: true
+  # Formats you can use:
+  # Legacy color codes like &l, &c, etc.
+  # MiniMessage: <green> <bold> etc.
+  # Built-in placeholders: {player}, {displayname}, {uuid}, {world}
+  message: "&a+ &f{player} &7joined the server!"
+
+leave:
+  enabled: true
+  message: "&c- &f{player} &7left the server!"
+
+# If the below value is true, treat messages as using the MiniMessage format first. If false, treat as using legacy color codes.
+use-minimessage: false

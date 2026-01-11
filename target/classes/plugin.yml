@@ -1,0 +1,14 @@
+name: AwesomeMessages
+version: '1.0'
+main: me.crispcapybara.awesomeMessage.AwesomeMessage
+api-version: '1.21'
+prefix: AM
+authors: [ CrispCapybara ]
+description: Custom Join/Leave Messages for your Minecraft server.
+commands:
+  amreload:
+    description: Reloads the config.
+    permission: am.reload
+permissions:
+  am.reload:
+    default: op

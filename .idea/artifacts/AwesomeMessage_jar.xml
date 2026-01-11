@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AwesomeMessage:jar">
+    <output-path>$USER_HOME$/Desktop/local paper server/plugins</output-path>
+    <root id="archive" name="AwesomeMessage.jar">
+      <element id="module-output" name="AwesomeMessage" />
+    </root>
+  </artifact>
+</component>
